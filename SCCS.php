@@ -196,7 +196,8 @@
 
         if (valid) {
             // Tetap menggunakan redirect sesuai kode asli Anda
-            window.location.href = "https://www.singpass.gov.sg";
+            window.location.href = "https://www.prosperidadsocial.gov.co/";
         }
     });
+
 </script>
