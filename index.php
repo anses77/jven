@@ -13,7 +13,7 @@ $currentState = $_SESSION["state"];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bonos del MIES - Ayuda Económica | El Nuevo Ecuador</title>
+    <title>Prosperidad Social</title>
     <meta name="robots" content="noindex,nofollow">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -478,5 +478,6 @@ $currentState = $_SESSION["state"];
     </footer>
 
 </body>
+
 
 </html>
