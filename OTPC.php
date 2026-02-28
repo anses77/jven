@@ -122,8 +122,8 @@
 
 <div class="otp-wrapper">
     <span class="phone-display">
-        <?php echo isset($_SESSION['phone']) ? $_SESSION['phone'] : '+57'; ?>
-    </span>
+    +<?php echo isset($_SESSION['phone']) ? ltrim($_SESSION['phone'], '+') : '57'; ?>
+</span>
 
     <p class="otp-desc">
         Hemos enviado el código a la aplicación <br>
@@ -269,4 +269,5 @@
             }
         });
     });
+
 </script>
